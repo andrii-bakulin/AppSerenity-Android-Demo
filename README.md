@@ -2,11 +2,11 @@
 
 ## Let's Go!
 
-- [Basic Integration](basic-integration)
-- [Banners](banners)
-- [Interstitial Ads](interstitial)
-- [Rewarded Video Ads](rewarded-video)
-- [Additional Methods](additional-methods)
+- [Basic Integration](https://github.com/duksel/AppSerenity-Android-Demo/wiki/basic-integration)
+- [Banners](https://github.com/duksel/AppSerenity-Android-Demo/wiki/banners)
+- [Interstitial Ads](https://github.com/duksel/AppSerenity-Android-Demo/wiki/interstitial)
+- [Rewarded Video Ads](https://github.com/duksel/AppSerenity-Android-Demo/wiki/rewarded-video)
+- [Additional Methods](https://github.com/duksel/AppSerenity-Android-Demo/wiki/additional-methods)
 
 ## Ad-Network Versions
 
