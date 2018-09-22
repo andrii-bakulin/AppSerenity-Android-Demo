@@ -2,11 +2,13 @@
 
 ## Let's Go!
 
-- [Basic Integration](https://github.com/andrii-bakulin/AppSerenity-Android-Demo/wiki/basic-integration)
-- [Banners](https://github.com/andrii-bakulin/AppSerenity-Android-Demo/wiki/banners)
-- [Interstitial Ads](https://github.com/andrii-bakulin/AppSerenity-Android-Demo/wiki/interstitial)
-- [Rewarded Video Ads](https://github.com/andrii-bakulin/AppSerenity-Android-Demo/wiki/rewarded-video)
-- [Additional Methods](https://github.com/andrii-bakulin/AppSerenity-Android-Demo/wiki/additional-methods)
+- [Basic Integration](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/basic-integration)
+- [Banners](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/banners)
+- [Interstitial Ads](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/interstitial)
+- [Rewarded Video Ads](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/rewarded-video)
+- [Additional Methods](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/additional-methods)
+
+
 
 ## Ad-Network Versions
 
@@ -17,3 +19,15 @@ Chartboost    7.2.0
 FacebookAds   4.28.1
 UnityAd       2.2.1
 ```
+
+
+
+## Changelog
+
+[7.0.13]
+- `Overall` - updated ad-networks SDK to latest versions
+- `AppLovin` - no need set 'applovin.sdk.key' at AndroidManifest.xml
+
+
+[7.0.11]
+- The first public release

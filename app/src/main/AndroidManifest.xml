@@ -15,12 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- =================== @AppSerenity.BEGIN.Application =================== -->
-        <meta-data
-            android:name="applovin.sdk.key"
-            android:value="4x4-UwbK-d1WzWUi1RslaNUqsif0IziMuoLMixhgTkCWEgEG74_iSUWICBIU80s0pBNV74BgoOC04QHCUGvxmQ"  />
-        <!-- =================== @AppSerenity.END.Application =================== -->
     </application>
 
 </manifest>
