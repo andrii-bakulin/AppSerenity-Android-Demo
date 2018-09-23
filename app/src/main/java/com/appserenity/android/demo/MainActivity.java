@@ -95,6 +95,18 @@ public class MainActivity extends AppCompatActivity {
 
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+        findViewById(R.id.button_int_ready_forced).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { interstitialIsReadyForced(); }
+        });
+
+        findViewById(R.id.button_int_show_forced).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { interstitialShowForced(); }
+        });
+
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
         findViewById(R.id.button_rwv_ready).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { rewardedVideoIsReady(); }
@@ -143,6 +155,22 @@ public class MainActivity extends AppCompatActivity {
     {
         boolean isShowed = AdInterstitial.showAd();
         this.showMessage( isShowed ? "Interstitial was showed" : "Interstitial was not showed" );
+    }
+
+    //----------------------------------------------------------------------------------------------
+
+    public void interstitialIsReadyForced()
+    {
+        boolean isReady = AdInterstitial.isReadyForced();
+        this.showMessage( isReady ? "Interstitial is ready (forced)" : "Interstitial is not ready (forced)" );
+    }
+
+    public void interstitialShowForced()
+    {
+        boolean isShowed = AdInterstitial.showAdForced();
+
+        if( !isShowed )
+            this.showMessage("Interstitial was not showed (forced)");
     }
 
     //----------------------------------------------------------------------------------------------
