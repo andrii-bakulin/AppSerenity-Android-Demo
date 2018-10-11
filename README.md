@@ -2,7 +2,7 @@
 
 ## Let's Go!
 
-- [Basic Integration](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/basic-integration)
+- [Quick start](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/quick-start)
 - [Banners](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/banners)
 - [Interstitial Ads](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/interstitial)
 - [Rewarded Video Ads](https://gitlab.com/AppSerenity/AppSerenity-Android-Demo/wikis/rewarded-video)
