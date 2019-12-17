@@ -1,6 +1,6 @@
-package com.appserenity.android.demo.aar;
+package com.appserenity.android.demo;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -10,6 +10,7 @@ import com.appserenity.ads.banner.AdBanner;
 import com.appserenity.ads.interstitial.AdInterstitial;
 import com.appserenity.ads.rwvideo.AdRewardedVideo;
 import com.appserenity.ads.rwvideo.AdRewardedVideoListener;
+import com.appserenity.android.demo.R;
 import com.appserenity.enums.AdNetwork;
 import com.appserenity.enums.RewardedVideoFinishState;
 
