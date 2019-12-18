@@ -23,9 +23,11 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
             android:configChanges="keyboardHidden|orientation|screenSize" />
 
+        <!-- @AppSerenitySDK BEGIN -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-4676105997903510~1705778980" />
+        <!-- @AppSerenitySDK END -->
     </application>
 
 </manifest>
